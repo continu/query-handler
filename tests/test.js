@@ -1,3 +1,4 @@
+var should = require('should');
 var QueryHandler = require('../js/query-handler');
 
 describe('QueryHandler', function(){

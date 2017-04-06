@@ -4,7 +4,7 @@
   "description": "Extends read-only MongoDB query operations to API calls",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha tests/test.js"
   },
   "repository": {
     "type": "git",
