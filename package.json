@@ -1,0 +1,31 @@
+{
+  "name": "query-handler",
+  "version": "1.0.0",
+  "description": "Extends read-only MongoDB query operations to API calls",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/continu/query-handler.git"
+  },
+  "keywords": [
+    "mongo",
+    "mongodb",
+    "mongoose",
+    "query",
+    "queryhandler",
+    "populate"
+  ],
+  "author": "Michael Schippert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/continu/query-handler/issues"
+  },
+  "homepage": "https://github.com/continu/query-handler#readme",
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "should": "^9.0.2"
+  }
+}
