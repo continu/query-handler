@@ -81,7 +81,7 @@ Whereas findOneAndUpdate is slightly different:
 Article.findOneAndUpdate(criterion.opts, body, {select: criterion.fields})
 ```
 
-Configuring for population is not pretty, but I haven't come up with a better way to do it yet.  It looks something like this:
+Configuring for population, while not ideal, looks something like this:
 ```
   Article.find(criterion.opts, criterion.fields, criterion.pageSort)
   .populate(criterion['user-populate'] ? 'user' : 'noFind', criterion['user-populate'])
